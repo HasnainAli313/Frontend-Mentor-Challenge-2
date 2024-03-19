@@ -1,0 +1,71 @@
+.attribution { font-size: 15px; text-align: center;padding:5px;
+background-color: rgb(152, 128, 128);
+color: white; }
+
+.attribution a { color: hsl(228, 19%, 16%); }
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.social-card{
+    width: 22%;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 12%);
+}
+img{
+    width: 85px;
+}
+.details{
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+a{
+    width: 100%;
+}
+h4{
+   color: hsl(75, 94%, 57%);
+   line-height: 5px;
+   font-size: small;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+}
+button{
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+button:hover{
+  background-color:   hsl(75, 94%, 57%);
+  color: black;
+}
+
+@media (max-width: 767px) {
+    .social-card{
+        width: 85%;
+        padding: 25px;
+    }
+}
